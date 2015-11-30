@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj lab5 -o "Y:/Documents/GitHub Files/301/lab5/register_file.tfi" -lib work "Y:/Documents/GitHub Files/301/lab5//register_file.v" -module register_file -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Y:\Documents\GitHub Files\301\lab5\Lab5_Top_Module.ncd
+OUTFILE=Y:\Documents\GitHub Files\301\lab5\Lab5_Top_Module.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=Y:\Documents\GitHub Files\301\lab5
+LICENSE=WebPack
+USER_INFO=210946827_0_0_131

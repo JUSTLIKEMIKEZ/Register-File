@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+register_file instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .W_Adr(W_Adr), 
+    .R_Adr(R_Adr), 
+    .S_Adr(S_Adr), 
+    .we_pulse(we_pulse), 
+    .Din(Din), 
+    .R(R), 
+    .S(S)
+    );
+
+

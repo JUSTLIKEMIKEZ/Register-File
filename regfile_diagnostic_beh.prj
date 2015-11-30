@@ -1,0 +1,5 @@
+verilog work "reg16.v"
+verilog work "dec_3to8.v"
+verilog work "register_file.v"
+verilog work "regfile_diagnostic.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

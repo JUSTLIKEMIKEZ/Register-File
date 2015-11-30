@@ -1,0 +1,51 @@
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 "Lab5_Top_Module.ngc" Lab5_Top_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_Top_Module_map.ncd Lab5_Top_Module.ngd Lab5_Top_Module.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_Top_Module_map.ncd Lab5_Top_Module.ncd Lab5_Top_Module.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab5_Top_Module.twx Lab5_Top_Module.ncd -o Lab5_Top_Module.twr Lab5_Top_Module.pcf 
+bitgen -intstyle ise -f Lab5_Top_Module.ut Lab5_Top_Module.ncd 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 "Lab5_Top_Module.ngc" Lab5_Top_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_Top_Module_map.ncd Lab5_Top_Module.ngd Lab5_Top_Module.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_Top_Module_map.ncd Lab5_Top_Module.ncd Lab5_Top_Module.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab5_Top_Module.twx Lab5_Top_Module.ncd -o Lab5_Top_Module.twr Lab5_Top_Module.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f Lab5_Top_Module.ut Lab5_Top_Module.ncd 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 "Lab5_Top_Module.ngc" Lab5_Top_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_Top_Module_map.ncd Lab5_Top_Module.ngd Lab5_Top_Module.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_Top_Module_map.ncd Lab5_Top_Module.ncd Lab5_Top_Module.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab5_Top_Module.twx Lab5_Top_Module.ncd -o Lab5_Top_Module.twr Lab5_Top_Module.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f Lab5_Top_Module.ut Lab5_Top_Module.ncd 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 "Lab5_Top_Module.ngc" Lab5_Top_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_Top_Module_map.ncd Lab5_Top_Module.ngd Lab5_Top_Module.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_Top_Module_map.ncd Lab5_Top_Module.ncd Lab5_Top_Module.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab5_Top_Module.twx Lab5_Top_Module.ncd -o Lab5_Top_Module.twr Lab5_Top_Module.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f Lab5_Top_Module.ut Lab5_Top_Module.ncd 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-1 "Lab5_Top_Module.ngc" Lab5_Top_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_Top_Module_map.ncd Lab5_Top_Module.ngd Lab5_Top_Module.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_Top_Module_map.ncd Lab5_Top_Module.ncd Lab5_Top_Module.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab5_Top_Module.twx Lab5_Top_Module.ncd -o Lab5_Top_Module.twr Lab5_Top_Module.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f Lab5_Top_Module.ut Lab5_Top_Module.ncd 
+xst -intstyle ise -ifn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.xst" -ofn "Y:/Documents/GitHub Files/301/lab5/Lab5_Top_Module.syr" 
